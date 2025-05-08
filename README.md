@@ -9,10 +9,6 @@ A GenAI-powered tool that suggests AI applications tailored to specific industri
 - Uses a transformer-based language model for relevant results.
 - Ideal for brainstorming GenAI tools for business use.
 
-## 📸 Demo
-
-*(Add a screenshot or GIF here if available)*
-
 ## 🛠 Tech Stack
 
 - **Frontend:** Streamlit  
@@ -74,10 +70,6 @@ Model used: [`MBZUAI/LaMini-Flan-T5-783M`](https://huggingface.co/MBZUAI/LaMini-
 ## 🔐 Security Note
 
 > ⚠️ **Do not share your Hugging Face API token publicly.** Consider using environment variables or a `.env` file to manage secrets.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgments
 
