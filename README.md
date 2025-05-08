@@ -22,11 +22,13 @@ A GenAI-powered tool that suggests AI applications tailored to specific industri
 
 ## 📂 Project Structure
 
-├── AI_Use_Case_Generator.ipynb # Jupyter notebook for development and testing
-├── app.py # Streamlit web app
-├── final_report.md # Example use case report (e.g., retail industry)
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+```
+├── AI_Use_Case_Generator.ipynb  # Jupyter notebook for development and testing
+├── app.py                       # Streamlit web app
+├── final_report.md              # Example use case report (e.g., retail industry)
+├── requirements.txt             # Dependencies
+└── README.md                    # Project documentation
+```
 
 ## 🧪 Getting Started
 
@@ -34,42 +36,50 @@ A GenAI-powered tool that suggests AI applications tailored to specific industri
 
 ```bash
 git clone https://github.com/yourusername/ai-use-case-generator.git
-cd ai-use-case-generator```
+cd ai-use-case-generator
+```
 
 ### 2. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Set Up Hugging Face API
-Open app.py and replace the value of HF_TOKEN with your Hugging Face API token:
 
+Open `app.py` and replace the value of `HF_TOKEN` with your Hugging Face API token:
+
+```python
 HF_TOKEN = "your_huggingface_api_token_here"
+```
 
 ### 4. Run the App
+
 ```bash
-
 streamlit run app.py
-### 📊 Example Use Case: Retail Industry
+```
+
+## 📊 Example Use Case: Retail Industry
+
 From the included report:
+- **Use Case Example:** AI-powered customer service chatbots
+- **Relevant Datasets:**
+  - [Predictive Maintenance Dataset - Kaggle](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020)
+  - [Machine Predictive Maintenance - Kaggle](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 
-Use Case Example: AI-powered customer service chatbots
+## 🤖 Model Information
 
-Relevant Datasets:
+Model used: [`MBZUAI/LaMini-Flan-T5-783M`](https://huggingface.co/MBZUAI/LaMini-Flan-T5-783M)
 
-Predictive Maintenance Dataset - Kaggle
+## 🔐 Security Note
 
-Machine Predictive Maintenance - Kaggle
+> ⚠️ **Do not share your Hugging Face API token publicly.** Consider using environment variables or a `.env` file to manage secrets.
 
-### 🤖 Model Information
-Model used: MBZUAI/LaMini-Flan-T5-783M
+## 📄 License
 
-### 🔐 Security Note
-⚠️ Do not share your Hugging Face API token publicly. Consider using environment variables or a .env file to manage secrets.
-### 🙌 Acknowledgments
-Hugging Face for the model and API platform.
+This project is licensed under the [MIT License](LICENSE).
 
-Streamlit for simplifying the UI build process.
+## 🙌 Acknowledgments
 
-yaml
-Copy
-Edit
+- Hugging Face for the model and API platform.
+- Streamlit for simplifying the UI build process.
